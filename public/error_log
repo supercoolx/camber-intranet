@@ -1,0 +1,21 @@
+[12-Feb-2019 17:57:01 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 17:57:04 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:15:53 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:15:57 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:00 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:02 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:07 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:10 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:13 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:42 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:16:45 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:25:03 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[12-Feb-2019 18:26:32 UTC] PHP Parse error:  syntax error, unexpected '=' in /home4/camberr1/public_html/inside/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 388
+[09-Apr-2019 09:22:27 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host box5579.bluehost.com [Connection timed out #110] in /home4/camberr1/public_html/inside/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home4/camberr1/public_html/inside/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home4/camberr1/public_html/inside/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/camberr1/public_html/inside/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/camberr1/public_html/inside/public/test.php(21): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home4/camberr1/public_html/inside/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
